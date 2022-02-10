@@ -1,0 +1,16 @@
+{
+  "app": "APP_ID",
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      "dist/files_management.js"
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      "dist/files_management.js"
+    ],
+    "css": []
+  }
+}

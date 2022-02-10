@@ -1,0 +1,16 @@
+{
+  "app": "APP_ID",
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      "https://dl.dropboxusercontent.com/s/n442cpmho8yju5s/files_management.js"
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      "https://dl.dropboxusercontent.com/s/n442cpmho8yju5s/files_management.js"
+    ],
+    "css": []
+  }
+}

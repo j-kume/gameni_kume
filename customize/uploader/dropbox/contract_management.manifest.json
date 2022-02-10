@@ -1,0 +1,16 @@
+{
+  "app": "APP_ID",
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      "https://dl.dropboxusercontent.com/s/r0te39za77jirnl/contract_management.js"
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      "https://dl.dropboxusercontent.com/s/r0te39za77jirnl/contract_management.js"
+    ],
+    "css": []
+  }
+}

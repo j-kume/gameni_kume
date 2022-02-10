@@ -1,0 +1,16 @@
+{
+  "app": "APP_ID",
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      "dist/contract_management.js"
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      "dist/contract_management.js"
+    ],
+    "css": []
+  }
+}

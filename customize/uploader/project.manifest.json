@@ -1,0 +1,16 @@
+{
+  "app": "APP_ID",
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      "dist/project.js"
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      "dist/project.js"
+    ],
+    "css": []
+  }
+}

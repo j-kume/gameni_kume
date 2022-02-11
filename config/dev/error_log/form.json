@@ -1,0 +1,77 @@
+{
+  "properties": [
+    {
+      "type": "DATETIME",
+      "label": "日時",
+      "noLabel": "false",
+      "code": "日時",
+      "required": "false",
+      "unique": "false",
+      "defaultValue": null,
+      "defaultExpression": "NOW"
+    },
+    {
+      "type": "MULTI_LINE_TEXT",
+      "label": "エラーメッセージ",
+      "noLabel": "false",
+      "code": "エラーメッセージ",
+      "required": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "MULTI_LINE_TEXT",
+      "label": "エラーオブジェクト",
+      "noLabel": "false",
+      "code": "エラーオブジェクト",
+      "required": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "MULTI_LINE_TEXT",
+      "label": "StackTrace",
+      "noLabel": "false",
+      "code": "stack_trace",
+      "required": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "マーク",
+      "noLabel": "false",
+      "code": "マーク",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "ファイル名",
+      "noLabel": "false",
+      "code": "ファイル名",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "関数名",
+      "noLabel": "false",
+      "code": "関数名",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    }
+  ]
+}

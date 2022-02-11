@@ -1,0 +1,182 @@
+{
+  "properties": {
+    "Createdtime": {
+      "type": "CREATED_TIME",
+      "code": "Createdtime",
+      "label": "作成日時",
+      "noLabel": false
+    },
+    "カテゴリー": {
+      "type": "CATEGORY",
+      "code": "カテゴリー",
+      "label": "カテゴリー",
+      "enabled": false
+    },
+    "レコード番号": {
+      "type": "RECORD_NUMBER",
+      "code": "レコード番号",
+      "label": "レコード番号",
+      "noLabel": false
+    },
+    "Createdby": {
+      "type": "CREATOR",
+      "code": "Createdby",
+      "label": "作成者",
+      "noLabel": false
+    },
+    "作業者": {
+      "type": "STATUS_ASSIGNEE",
+      "code": "作業者",
+      "label": "作業者",
+      "enabled": false
+    },
+    "変更内容メモ": {
+      "type": "SUBTABLE",
+      "code": "変更内容メモ",
+      "noLabel": true,
+      "label": "変更内容メモ",
+      "fields": {
+        "ModifiedContents": {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "ModifiedContents",
+          "label": "変更内容",
+          "noLabel": false,
+          "required": false,
+          "minLength": "",
+          "maxLength": "",
+          "expression": "",
+          "hideExpression": false,
+          "unique": false,
+          "defaultValue": ""
+        },
+        "Modifiedby": {
+          "type": "USER_SELECT",
+          "code": "Modifiedby",
+          "label": "変更者",
+          "noLabel": false,
+          "required": false,
+          "entities": [],
+          "defaultValue": []
+        },
+        "Date": {
+          "type": "DATE",
+          "code": "Date",
+          "label": "日付",
+          "noLabel": false,
+          "required": false,
+          "unique": false,
+          "defaultValue": "",
+          "defaultNowValue": false
+        }
+      }
+    },
+    "Description": {
+      "type": "MULTI_LINE_TEXT",
+      "code": "Description",
+      "label": "説明",
+      "noLabel": false,
+      "required": false,
+      "defaultValue": ""
+    },
+    "更新者": {
+      "type": "MODIFIER",
+      "code": "更新者",
+      "label": "更新者",
+      "noLabel": false
+    },
+    "ステータス": {
+      "type": "STATUS",
+      "code": "ステータス",
+      "label": "ステータス",
+      "enabled": false
+    },
+    "Title": {
+      "type": "SINGLE_LINE_TEXT",
+      "code": "Title",
+      "label": "タイトル",
+      "noLabel": false,
+      "required": false,
+      "minLength": "",
+      "maxLength": "",
+      "expression": "",
+      "hideExpression": false,
+      "unique": false,
+      "defaultValue": ""
+    },
+    "File": {
+      "type": "FILE",
+      "code": "File",
+      "label": "ファイル",
+      "noLabel": false,
+      "required": false,
+      "thumbnailSize": "150"
+    },
+    "更新日時": {
+      "type": "UPDATED_TIME",
+      "code": "更新日時",
+      "label": "更新日時",
+      "noLabel": false
+    },
+    "システム利用": {
+      "type": "GROUP",
+      "code": "システム利用",
+      "label": "システム利用",
+      "noLabel": false,
+      "openGroup": false
+    },
+    "uid": {
+      "type": "NUMBER",
+      "code": "uid",
+      "label": "uid",
+      "noLabel": false,
+      "required": true,
+      "minValue": "",
+      "maxValue": "",
+      "digit": false,
+      "unique": true,
+      "defaultValue": "",
+      "displayScale": "",
+      "unit": "",
+      "unitPosition": "BEFORE"
+    },
+    "no": {
+      "type": "SINGLE_LINE_TEXT",
+      "code": "no",
+      "label": "No",
+      "noLabel": false,
+      "required": true,
+      "minLength": "",
+      "maxLength": "",
+      "expression": "",
+      "hideExpression": false,
+      "unique": false,
+      "defaultValue": ""
+    },
+    "lookup_key": {
+      "type": "SINGLE_LINE_TEXT",
+      "code": "lookup_key",
+      "label": "情報検索",
+      "noLabel": false,
+      "required": true,
+      "minLength": "",
+      "maxLength": "64",
+      "expression": "",
+      "hideExpression": false,
+      "unique": true,
+      "defaultValue": ""
+    },
+    "record_title": {
+      "type": "SINGLE_LINE_TEXT",
+      "code": "record_title",
+      "label": "レコードタイトル",
+      "noLabel": false,
+      "required": true,
+      "minLength": "",
+      "maxLength": "",
+      "expression": "",
+      "hideExpression": false,
+      "unique": false,
+      "defaultValue": ""
+    }
+  }
+}

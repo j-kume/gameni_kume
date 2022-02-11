@@ -1,0 +1,159 @@
+{
+  "layout": [
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "Title",
+          "size": {
+            "width": "311"
+          }
+        },
+        {
+          "type": "FILE",
+          "code": "File",
+          "size": {
+            "width": "207"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "MULTI_LINE_TEXT",
+          "code": "Description",
+          "size": {
+            "width": "518",
+            "innerHeight": "140"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "CREATOR",
+          "code": "Createdby",
+          "size": {
+            "width": "173"
+          }
+        },
+        {
+          "type": "CREATED_TIME",
+          "code": "Createdtime",
+          "size": {
+            "width": "204"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "HR",
+          "size": {
+            "width": "518"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SUBTABLE",
+      "code": "変更内容メモ",
+      "fields": [
+        {
+          "type": "DATE",
+          "code": "Date",
+          "size": {
+            "width": "136"
+          }
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "ModifiedContents",
+          "size": {
+            "width": "382"
+          }
+        },
+        {
+          "type": "USER_SELECT",
+          "code": "Modifiedby",
+          "size": {
+            "width": "344"
+          }
+        }
+      ]
+    },
+    {
+      "type": "GROUP",
+      "code": "システム利用",
+      "layout": [
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "RECORD_NUMBER",
+              "code": "レコード番号",
+              "size": {
+                "width": "120"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "NUMBER",
+              "code": "uid",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "no",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "lookup_key",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "record_title",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

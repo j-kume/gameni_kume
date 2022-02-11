@@ -1,0 +1,19 @@
+{
+  "views": {
+    "一覧": {
+      "type": "LIST",
+      "name": "一覧",
+      "id": "5690803",
+      "filterCond": "",
+      "sort": "アプリCODE asc",
+      "index": "0",
+      "fields": [
+        "アプリCODE",
+        "アプリ名",
+        "uid",
+        "アプリID",
+        "メモ"
+      ]
+    }
+  }
+}

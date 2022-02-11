@@ -1,0 +1,18 @@
+{
+  "appId": "4",
+  "code": "",
+  "name": "【開発】ファイル管理",
+  "description": "<div>文書や提案資料、画像などのファイルを共有できるアプリです。</div>  <div>全文検索でPDFファイル等の中身まで検索したり、ファイルの更新履歴を残したりすることもできます。</div>",
+  "createdAt": "2022-02-09T15:21:06.000Z",
+  "creator": {
+    "code": "gameni1",
+    "name": "がめに1"
+  },
+  "modifiedAt": "2022-02-11T10:37:52.000Z",
+  "modifier": {
+    "code": "gameni1",
+    "name": "がめに1"
+  },
+  "spaceId": "1",
+  "threadId": "1"
+}

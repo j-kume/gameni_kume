@@ -1,0 +1,31 @@
+{
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      {
+        "type": "FILE",
+        "file": {
+          "fileKey": "202202111534099788B1C1F7D740E3AED519092BF430DC198",
+          "name": "customer.js",
+          "contentType": "application/javascript",
+          "size": "105369"
+        }
+      }
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      {
+        "type": "FILE",
+        "file": {
+          "fileKey": "2022021115340996080E6A075D43029500870E5EF8938D173",
+          "name": "customer.js",
+          "contentType": "application/javascript",
+          "size": "105369"
+        }
+      }
+    ],
+    "css": []
+  }
+}

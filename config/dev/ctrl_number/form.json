@@ -1,0 +1,73 @@
+{
+  "properties": [
+    {
+      "type": "NUMBER",
+      "label": "uid",
+      "noLabel": "false",
+      "code": "uid",
+      "required": "true",
+      "minValue": null,
+      "maxValue": null,
+      "digit": "false",
+      "unique": "false",
+      "defaultValue": "0",
+      "displayScale": null,
+      "unit": null,
+      "unitPosition": "BEFORE"
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "メモ",
+      "noLabel": "false",
+      "code": "メモ",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "NUMBER",
+      "label": "アプリID",
+      "noLabel": "false",
+      "code": "アプリID",
+      "required": "true",
+      "minValue": null,
+      "maxValue": null,
+      "digit": "false",
+      "unique": "true",
+      "defaultValue": "0",
+      "displayScale": null,
+      "unit": null,
+      "unitPosition": "BEFORE"
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "アプリ名",
+      "noLabel": "false",
+      "code": "アプリ名",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "アプリCODE",
+      "noLabel": "false",
+      "code": "アプリCODE",
+      "required": "true",
+      "minLength": null,
+      "maxLength": "64",
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "true",
+      "defaultValue": ""
+    }
+  ]
+}

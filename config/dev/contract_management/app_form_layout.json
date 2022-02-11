@@ -1,0 +1,239 @@
+{
+  "layout": [
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "USER_SELECT",
+          "code": "ユーザー選択_0",
+          "size": {
+            "width": "344"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "LABEL",
+          "label": "<div><span style=\"color: rgb(0,0,255);\"><font size=\"4\"><b>契約先情報</b></font></span></div>",
+          "size": {
+            "width": "122"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "文字列__1行_",
+          "size": {
+            "width": "409"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "文字列__1行__0",
+          "size": {
+            "width": "193"
+          }
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "文字列__1行__3",
+          "size": {
+            "width": "210"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "LABEL",
+          "label": "<div><span style=\"color: rgb(0,0,255);\"><font size=\"4\"><b>契約情報</b></font></span></div>",
+          "size": {
+            "width": "122"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "文字列__1行__1",
+          "size": {
+            "width": "409"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "DATE",
+          "code": "日付_0",
+          "size": {
+            "width": "117"
+          }
+        },
+        {
+          "type": "DATE",
+          "code": "日付_1",
+          "size": {
+            "width": "117"
+          }
+        },
+        {
+          "type": "RADIO_BUTTON",
+          "code": "ラジオボタン",
+          "size": {
+            "width": "183"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "MULTI_LINE_TEXT",
+          "code": "文字列__複数行_",
+          "size": {
+            "width": "424",
+            "innerHeight": "137"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "FILE",
+          "code": "添付ファイル_0",
+          "size": {
+            "width": "207"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "LABEL",
+          "label": "<div><span style=\"color: rgb(0,0,255);\"><font size=\"4\"><b>修正履歴</b></font><br /></span></div>",
+          "size": {
+            "width": "122"
+          }
+        }
+      ]
+    },
+    {
+      "type": "SUBTABLE",
+      "code": "SubTable",
+      "fields": [
+        {
+          "type": "DATE",
+          "code": "日付",
+          "size": {
+            "width": "137"
+          }
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "文字列__1行__2",
+          "size": {
+            "width": "323"
+          }
+        },
+        {
+          "type": "FILE",
+          "code": "添付ファイル",
+          "size": {
+            "width": "223"
+          }
+        }
+      ]
+    },
+    {
+      "type": "GROUP",
+      "code": "システム利用",
+      "layout": [
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "RECORD_NUMBER",
+              "code": "レコード番号",
+              "size": {
+                "width": "120"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "NUMBER",
+              "code": "uid",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "no",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "lookup_key",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "record_title",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

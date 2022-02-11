@@ -1,0 +1,18 @@
+{
+  "appId": "3",
+  "code": "",
+  "name": "【開発】日報",
+  "description": "<div>日々の業務内容、報告事項、所感などを記載していくアプリです。<div>記録を行うだけでなく、あとからの振り返りやメンバー間のコミュニケーションにも活用できます。</div></div>",
+  "createdAt": "2022-02-09T15:20:54.000Z",
+  "creator": {
+    "code": "gameni1",
+    "name": "がめに1"
+  },
+  "modifiedAt": "2022-02-11T10:37:07.000Z",
+  "modifier": {
+    "code": "gameni1",
+    "name": "がめに1"
+  },
+  "spaceId": "1",
+  "threadId": "1"
+}

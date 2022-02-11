@@ -1,0 +1,14 @@
+{
+  "name": "【開発】ファイル管理",
+  "description": "<div>文書や提案資料、画像などのファイルを共有できるアプリです。</div>  <div>全文検索でPDFファイル等の中身まで検索したり、ファイルの更新履歴を残したりすることもできます。</div>",
+  "icon": {
+    "type": "FILE",
+    "file": {
+      "fileKey": "20220211103752FE6452077E1544A7ADF6E900E87EAD92201",
+      "name": "appCabinet.png",
+      "contentType": "image/png",
+      "size": "4087"
+    }
+  },
+  "theme": "WHITE"
+}

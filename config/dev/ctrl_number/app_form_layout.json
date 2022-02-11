@@ -1,0 +1,115 @@
+{
+  "layout": [
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "NUMBER",
+          "code": "アプリID",
+          "size": {
+            "width": "190"
+          }
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "アプリCODE",
+          "size": {
+            "width": "190"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "アプリ名",
+          "size": {
+            "width": "561"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "NUMBER",
+          "code": "uid",
+          "size": {
+            "width": "190"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "メモ",
+          "size": {
+            "width": "370"
+          }
+        }
+      ]
+    },
+    {
+      "type": "GROUP",
+      "code": "グループ",
+      "layout": [
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "RECORD_NUMBER",
+              "code": "レコード番号",
+              "size": {
+                "width": "120"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "CREATED_TIME",
+              "code": "作成日時",
+              "size": {
+                "width": "196"
+              }
+            },
+            {
+              "type": "CREATOR",
+              "code": "作成者",
+              "size": {
+                "width": "136"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "UPDATED_TIME",
+              "code": "更新日時",
+              "size": {
+                "width": "196"
+              }
+            },
+            {
+              "type": "MODIFIER",
+              "code": "更新者",
+              "size": {
+                "width": "136"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

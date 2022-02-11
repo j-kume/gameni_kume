@@ -1,0 +1,18 @@
+{
+  "views": {
+    "ファイル一覧": {
+      "type": "LIST",
+      "name": "ファイル一覧",
+      "id": "5118245",
+      "filterCond": "",
+      "sort": "Createdtime desc",
+      "index": "0",
+      "fields": [
+        "Title",
+        "File",
+        "Createdby",
+        "Createdtime"
+      ]
+    }
+  }
+}

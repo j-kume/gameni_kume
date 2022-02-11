@@ -1,0 +1,9 @@
+{
+  "name": "【開発】番号管理マスタ",
+  "description": "<div><br /></div>",
+  "icon": {
+    "type": "PRESET",
+    "key": "APP60"
+  },
+  "theme": "WHITE"
+}

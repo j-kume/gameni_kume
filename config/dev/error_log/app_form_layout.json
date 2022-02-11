@@ -1,0 +1,147 @@
+{
+  "layout": [
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "DATETIME",
+          "code": "日時",
+          "size": {
+            "width": "196"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "MULTI_LINE_TEXT",
+          "code": "エラーメッセージ",
+          "size": {
+            "width": "801",
+            "innerHeight": "265"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "MULTI_LINE_TEXT",
+          "code": "エラーオブジェクト",
+          "size": {
+            "width": "801",
+            "innerHeight": "368"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "MULTI_LINE_TEXT",
+          "code": "stack_trace",
+          "size": {
+            "width": "801",
+            "innerHeight": "359"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "ファイル名",
+          "size": {
+            "width": "801"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "関数名",
+          "size": {
+            "width": "801"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "マーク",
+          "size": {
+            "width": "801"
+          }
+        }
+      ]
+    },
+    {
+      "type": "GROUP",
+      "code": "グループ",
+      "layout": [
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "RECORD_NUMBER",
+              "code": "レコード番号",
+              "size": {
+                "width": "120"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "CREATED_TIME",
+              "code": "作成日時",
+              "size": {
+                "width": "196"
+              }
+            },
+            {
+              "type": "CREATOR",
+              "code": "作成者",
+              "size": {
+                "width": "136"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "UPDATED_TIME",
+              "code": "更新日時",
+              "size": {
+                "width": "196"
+              }
+            },
+            {
+              "type": "MODIFIER",
+              "code": "更新者",
+              "size": {
+                "width": "136"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

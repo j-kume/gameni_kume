@@ -1,0 +1,241 @@
+{
+  "properties": [
+    {
+      "type": "SUBTABLE",
+      "label": "活動履歴",
+      "noLabel": "true",
+      "code": "活動履歴",
+      "fields": [
+        {
+          "type": "DATE",
+          "label": "活動日",
+          "noLabel": "false",
+          "code": "日付",
+          "required": "false",
+          "unique": "false",
+          "defaultValue": null,
+          "defaultExpression": "NOW"
+        },
+        {
+          "type": "DROP_DOWN",
+          "label": "活動内容",
+          "noLabel": "false",
+          "code": "ドロップダウン_1",
+          "required": "false",
+          "options": [
+            "訪問/来訪",
+            "電話",
+            "メール",
+            "導入相談",
+            "セミナー",
+            "イベント",
+            "その他"
+          ],
+          "defaultValue": null
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "label": "メモ",
+          "noLabel": "false",
+          "code": "文字列__1行__2",
+          "required": "false",
+          "minLength": null,
+          "maxLength": null,
+          "expression": "",
+          "hideExpression": "false",
+          "unique": "false",
+          "defaultValue": ""
+        },
+        {
+          "type": "FILE",
+          "label": "添付ファイル",
+          "noLabel": "false",
+          "code": "添付ファイル",
+          "required": "false"
+        }
+      ]
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "会社名",
+      "noLabel": "false",
+      "code": "文字列__1行_",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "部署名",
+      "noLabel": "false",
+      "code": "文字列__1行__0",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "先方担当者",
+      "noLabel": "false",
+      "code": "文字列__1行__1",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "TEL",
+      "noLabel": "false",
+      "code": "文字列__1行__3",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "FAX",
+      "noLabel": "false",
+      "code": "文字列__1行__4",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "メールアドレス",
+      "noLabel": "false",
+      "code": "文字列__1行__5",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "USER_SELECT",
+      "label": "案件担当者名",
+      "noLabel": "false",
+      "code": "ユーザー選択",
+      "required": "false"
+    },
+    {
+      "type": "DATE",
+      "label": "見込み時期",
+      "noLabel": "false",
+      "code": "日付_0",
+      "required": "false",
+      "unique": "false",
+      "defaultValue": null,
+      "defaultExpression": "NOW"
+    },
+    {
+      "type": "RADIO_BUTTON",
+      "label": "確度",
+      "noLabel": "false",
+      "code": "ラジオボタン",
+      "required": "true",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "defaultValue": "A"
+    },
+    {
+      "type": "DROP_DOWN",
+      "label": "製品名",
+      "noLabel": "false",
+      "code": "ドロップダウン_0",
+      "required": "false",
+      "options": [
+        "kintone",
+        "Office",
+        "Garoon"
+      ],
+      "defaultValue": null
+    },
+    {
+      "type": "NUMBER",
+      "label": "単価",
+      "noLabel": "false",
+      "code": "単価",
+      "required": "false",
+      "minValue": null,
+      "maxValue": null,
+      "digit": "true",
+      "unique": "false",
+      "defaultValue": null,
+      "displayScale": null,
+      "unit": null,
+      "unitPosition": "BEFORE"
+    },
+    {
+      "type": "NUMBER",
+      "label": "ユーザー数",
+      "noLabel": "false",
+      "code": "ユーザー数",
+      "required": "false",
+      "minValue": null,
+      "maxValue": null,
+      "digit": "true",
+      "unique": "false",
+      "defaultValue": null,
+      "displayScale": null,
+      "unit": null,
+      "unitPosition": "BEFORE"
+    },
+    {
+      "type": "CALC",
+      "label": "小計",
+      "noLabel": "false",
+      "code": "数値_1",
+      "required": "false",
+      "expression": "単価*ユーザー数",
+      "format": "NUMBER_DIGIT",
+      "displayScale": null,
+      "hideExpression": "false",
+      "unit": null,
+      "unitPosition": "BEFORE"
+    },
+    {
+      "type": "LABEL",
+      "label": "<div><font size=\"4\"><b><span style=\"color: rgb(61,133,198);\">顧客情報</span></b></font></div>"
+    },
+    {
+      "type": "HR"
+    },
+    {
+      "type": "LABEL",
+      "label": "<div><font size=\"4\"><b><span style=\"color: rgb(61,133,198);\">案件情報</span></b></font></div>"
+    },
+    {
+      "type": "HR"
+    },
+    {
+      "type": "LABEL",
+      "label": "<div><font size=\"4\"><b><span style=\"color: rgb(61,133,198);\">活動履歴</span></b></font></div>"
+    }
+  ]
+}

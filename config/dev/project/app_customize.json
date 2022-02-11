@@ -1,0 +1,31 @@
+{
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      {
+        "type": "FILE",
+        "file": {
+          "fileKey": "20220211141801B23509CB741C4EBBB17B61A0DA3F5EE4137",
+          "name": "project.js",
+          "contentType": "application/javascript",
+          "size": "105369"
+        }
+      }
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      {
+        "type": "FILE",
+        "file": {
+          "fileKey": "202202111418010253C646A96E4801AC67A26E9FB73194241",
+          "name": "project.js",
+          "contentType": "application/javascript",
+          "size": "105369"
+        }
+      }
+    ],
+    "css": []
+  }
+}

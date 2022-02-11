@@ -1,0 +1,31 @@
+{
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      {
+        "type": "FILE",
+        "file": {
+          "fileKey": "2022021110370735CEF29BAA1F436091FF3E440A798609161",
+          "name": "daily_report.js",
+          "contentType": "application/javascript",
+          "size": "105369"
+        }
+      }
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      {
+        "type": "FILE",
+        "file": {
+          "fileKey": "202202111037076F8F30156B854BC8973D1342D06556A8005",
+          "name": "daily_report.js",
+          "contentType": "application/javascript",
+          "size": "105369"
+        }
+      }
+    ],
+    "css": []
+  }
+}

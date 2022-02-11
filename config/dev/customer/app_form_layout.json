@@ -1,0 +1,178 @@
+{
+  "layout": [
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "会社名",
+          "size": {
+            "width": "193"
+          }
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "部署名",
+          "size": {
+            "width": "193"
+          }
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "担当者名",
+          "size": {
+            "width": "193"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "郵便番号",
+          "size": {
+            "width": "193"
+          }
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "TEL",
+          "size": {
+            "width": "193"
+          }
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "FAX",
+          "size": {
+            "width": "193"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "住所",
+          "size": {
+            "width": "386"
+          }
+        },
+        {
+          "type": "DROP_DOWN",
+          "code": "顧客ランク",
+          "size": {
+            "width": "193"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "code": "メールアドレス",
+          "size": {
+            "width": "386"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "FILE",
+          "code": "会社ロゴ",
+          "size": {
+            "width": "207"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ROW",
+      "fields": [
+        {
+          "type": "MULTI_LINE_TEXT",
+          "code": "備考",
+          "size": {
+            "width": "386",
+            "innerHeight": "84"
+          }
+        }
+      ]
+    },
+    {
+      "type": "GROUP",
+      "code": "システム利用",
+      "layout": [
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "RECORD_NUMBER",
+              "code": "レコード番号",
+              "size": {
+                "width": "120"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "NUMBER",
+              "code": "uid",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "no",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "lookup_key",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        },
+        {
+          "type": "ROW",
+          "fields": [
+            {
+              "type": "SINGLE_LINE_TEXT",
+              "code": "record_title",
+              "size": {
+                "width": "193"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

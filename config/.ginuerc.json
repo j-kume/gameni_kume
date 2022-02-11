@@ -1,21 +1,31 @@
 {
   "env": {
     "pro": {
-      "domain": "xxxxxxx.cybozu.com",
-      "username": "user",
-      "password": "pw",
+      "domain": "gameni2022.cybozu.com",
+      "username": "gameni1",
+      "password": "uyslo7j0",
       "app": {
-        "aaaaaaaaa": 0,
-        "bbbbbbbbb": 0
+        "ctrl_number": 0,
+        "error_log": 0,
+        "customer": 0,
+        "project": 0,
+        "daily_report": 0,
+        "files_management": 0,
+        "contract_management": 0
       }
     },
     "dev": {
-      "domain": "xxxxxxx.cybozu.com",
-      "username": "user",
-      "password": "pw",
+      "domain": "gameni2022.cybozu.com",
+      "username": "gameni1",
+      "password": "uyslo7j0",
       "app": {
-        "aaaaaaaaa": 0,
-        "bbbbbbbbb": 0
+        "ctrl_number": 10,
+        "error_log": 7,
+        "customer": 1,
+        "project": 2,
+        "daily_report": 3,
+        "files_management": 4,
+        "contract_management": 5
       }
     }
   }

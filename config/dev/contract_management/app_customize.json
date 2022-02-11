@@ -1,0 +1,31 @@
+{
+  "scope": "ALL",
+  "desktop": {
+    "js": [
+      {
+        "type": "FILE",
+        "file": {
+          "fileKey": "202202111418071B07096F3B3E4473A4156744DC191E00046",
+          "name": "contract_management.js",
+          "contentType": "application/javascript",
+          "size": "105369"
+        }
+      }
+    ],
+    "css": []
+  },
+  "mobile": {
+    "js": [
+      {
+        "type": "FILE",
+        "file": {
+          "fileKey": "20220211141807BC2ADCC49ACA47E5A2159BE4B93930BE098",
+          "name": "contract_management.js",
+          "contentType": "application/javascript",
+          "size": "105369"
+        }
+      }
+    ],
+    "css": []
+  }
+}

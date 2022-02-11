@@ -1,0 +1,14 @@
+{
+  "name": "【開発】契約書管理",
+  "description": "<div>契約書の作成依頼から、作成した書面の添付・確認までワンストップで行うことができるアプリです。</div>  <div>依頼や内容変更のやりとりをコメント欄で行うことで、あとから経緯を確認できます。</div>",
+  "icon": {
+    "type": "FILE",
+    "file": {
+      "fileKey": "202202111418075908433ED0904BFF9FD4E8C41C466B15200",
+      "name": "app_keiyaku.png",
+      "contentType": "image/png",
+      "size": "2804"
+    }
+  },
+  "theme": "WHITE"
+}

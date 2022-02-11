@@ -1,0 +1,18 @@
+{
+  "appId": "1",
+  "code": "",
+  "name": "【開発】顧客リスト",
+  "description": "<div><span style=\"line-height:1.5\">会社名、担当者名、連絡先などお客様の情報を登録するアプリです。</span><br /></div><div>キーワード検索、地域等の条件での絞り込み、リストのCSV入出力等が可能です。</div>",
+  "createdAt": "2022-02-09T15:20:30.000Z",
+  "creator": {
+    "code": "gameni1",
+    "name": "がめに1"
+  },
+  "modifiedAt": "2022-02-11T15:34:09.000Z",
+  "modifier": {
+    "code": "gameni1",
+    "name": "がめに1"
+  },
+  "spaceId": "1",
+  "threadId": "1"
+}

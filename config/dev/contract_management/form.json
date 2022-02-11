@@ -1,0 +1,160 @@
+{
+  "properties": [
+    {
+      "type": "SUBTABLE",
+      "label": "SubTable",
+      "noLabel": "true",
+      "code": "SubTable",
+      "fields": [
+        {
+          "type": "DATE",
+          "label": "日付",
+          "noLabel": "false",
+          "code": "日付",
+          "required": "false",
+          "unique": "false",
+          "defaultValue": null,
+          "defaultExpression": "NOW"
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "label": "修正内容",
+          "noLabel": "false",
+          "code": "文字列__1行__2",
+          "required": "false",
+          "minLength": null,
+          "maxLength": null,
+          "expression": "",
+          "hideExpression": "false",
+          "unique": "false",
+          "defaultValue": ""
+        },
+        {
+          "type": "FILE",
+          "label": "添付ファイル",
+          "noLabel": "false",
+          "code": "添付ファイル",
+          "required": "false"
+        }
+      ]
+    },
+    {
+      "type": "USER_SELECT",
+      "label": "依頼者",
+      "noLabel": "false",
+      "code": "ユーザー選択_0",
+      "required": "false"
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "会社名",
+      "noLabel": "false",
+      "code": "文字列__1行_",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "担当者名",
+      "noLabel": "false",
+      "code": "文字列__1行__0",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "連絡先",
+      "noLabel": "false",
+      "code": "文字列__1行__3",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "契約書名",
+      "noLabel": "false",
+      "code": "文字列__1行__1",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "DATE",
+      "label": "契約開始日",
+      "noLabel": "false",
+      "code": "日付_0",
+      "required": "false",
+      "unique": "false",
+      "defaultValue": null,
+      "defaultExpression": "NOW"
+    },
+    {
+      "type": "DATE",
+      "label": "契約満了日",
+      "noLabel": "false",
+      "code": "日付_1",
+      "required": "false",
+      "unique": "false",
+      "defaultValue": null,
+      "defaultExpression": "NOW"
+    },
+    {
+      "type": "MULTI_LINE_TEXT",
+      "label": "契約内容",
+      "noLabel": "false",
+      "code": "文字列__複数行_",
+      "required": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "FILE",
+      "label": "契約書",
+      "noLabel": "false",
+      "code": "添付ファイル_0",
+      "required": "false"
+    },
+    {
+      "type": "RADIO_BUTTON",
+      "label": "契約自動更新",
+      "noLabel": "false",
+      "code": "ラジオボタン",
+      "required": "true",
+      "options": [
+        "有",
+        "無"
+      ],
+      "defaultValue": "有"
+    },
+    {
+      "type": "LABEL",
+      "label": "<div><span style=\"color: rgb(0,0,255);\"><font size=\"4\"><b>契約先情報</b></font></span></div>"
+    },
+    {
+      "type": "LABEL",
+      "label": "<div><span style=\"color: rgb(0,0,255);\"><font size=\"4\"><b>契約情報</b></font></span></div>"
+    },
+    {
+      "type": "LABEL",
+      "label": "<div><span style=\"color: rgb(0,0,255);\"><font size=\"4\"><b>修正履歴</b></font><br /></span></div>"
+    }
+  ]
+}

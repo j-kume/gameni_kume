@@ -1,0 +1,18 @@
+{
+  "appId": "2",
+  "code": "",
+  "name": "【開発】案件管理",
+  "description": "<div>案件ごとに、受注の確度や金額はもちろん、活動の履歴も記録できるアプリです。</div>  <div>担当者別の案件数やその確度、今月の売上金額などを集計することもできます。</div>",
+  "createdAt": "2022-02-09T15:20:41.000Z",
+  "creator": {
+    "code": "gameni1",
+    "name": "がめに1"
+  },
+  "modifiedAt": "2022-02-11T14:18:01.000Z",
+  "modifier": {
+    "code": "gameni1",
+    "name": "がめに1"
+  },
+  "spaceId": "1",
+  "threadId": "1"
+}

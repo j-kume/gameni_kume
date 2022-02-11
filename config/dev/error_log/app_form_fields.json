@@ -1,0 +1,132 @@
+{
+  "properties": {
+    "関数名": {
+      "type": "SINGLE_LINE_TEXT",
+      "code": "関数名",
+      "label": "関数名",
+      "noLabel": false,
+      "required": false,
+      "minLength": "",
+      "maxLength": "",
+      "expression": "",
+      "hideExpression": false,
+      "unique": false,
+      "defaultValue": ""
+    },
+    "レコード番号": {
+      "type": "RECORD_NUMBER",
+      "code": "レコード番号",
+      "label": "レコード番号",
+      "noLabel": false
+    },
+    "作業者": {
+      "type": "STATUS_ASSIGNEE",
+      "code": "作業者",
+      "label": "作業者",
+      "enabled": false
+    },
+    "ファイル名": {
+      "type": "SINGLE_LINE_TEXT",
+      "code": "ファイル名",
+      "label": "ファイル名",
+      "noLabel": false,
+      "required": false,
+      "minLength": "",
+      "maxLength": "",
+      "expression": "",
+      "hideExpression": false,
+      "unique": false,
+      "defaultValue": ""
+    },
+    "更新者": {
+      "type": "MODIFIER",
+      "code": "更新者",
+      "label": "更新者",
+      "noLabel": false
+    },
+    "作成者": {
+      "type": "CREATOR",
+      "code": "作成者",
+      "label": "作成者",
+      "noLabel": false
+    },
+    "ステータス": {
+      "type": "STATUS",
+      "code": "ステータス",
+      "label": "ステータス",
+      "enabled": false
+    },
+    "グループ": {
+      "type": "GROUP",
+      "code": "グループ",
+      "label": "システム利用",
+      "noLabel": false,
+      "openGroup": false
+    },
+    "マーク": {
+      "type": "SINGLE_LINE_TEXT",
+      "code": "マーク",
+      "label": "マーク",
+      "noLabel": false,
+      "required": false,
+      "minLength": "",
+      "maxLength": "",
+      "expression": "",
+      "hideExpression": false,
+      "unique": false,
+      "defaultValue": ""
+    },
+    "更新日時": {
+      "type": "UPDATED_TIME",
+      "code": "更新日時",
+      "label": "更新日時",
+      "noLabel": false
+    },
+    "カテゴリー": {
+      "type": "CATEGORY",
+      "code": "カテゴリー",
+      "label": "カテゴリー",
+      "enabled": false
+    },
+    "日時": {
+      "type": "DATETIME",
+      "code": "日時",
+      "label": "日時",
+      "noLabel": false,
+      "required": false,
+      "unique": false,
+      "defaultValue": "",
+      "defaultNowValue": true
+    },
+    "エラーオブジェクト": {
+      "type": "MULTI_LINE_TEXT",
+      "code": "エラーオブジェクト",
+      "label": "エラーオブジェクト",
+      "noLabel": false,
+      "required": false,
+      "defaultValue": ""
+    },
+    "エラーメッセージ": {
+      "type": "MULTI_LINE_TEXT",
+      "code": "エラーメッセージ",
+      "label": "エラーメッセージ",
+      "noLabel": false,
+      "required": false,
+      "defaultValue": ""
+    },
+    "stack_trace": {
+      "type": "MULTI_LINE_TEXT",
+      "code": "stack_trace",
+      "label": "StackTrace",
+      "noLabel": false,
+      "required": false,
+      "defaultValue": ""
+    },
+    "作成日時": {
+      "type": "CREATED_TIME",
+      "code": "作成日時",
+      "label": "作成日時",
+      "noLabel": false
+    }
+  }
+}

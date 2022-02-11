@@ -1,0 +1,85 @@
+{
+  "properties": [
+    {
+      "type": "CREATOR",
+      "label": "作成者",
+      "noLabel": "false",
+      "code": "Createdby"
+    },
+    {
+      "type": "CREATED_TIME",
+      "label": "作成日時",
+      "noLabel": "false",
+      "code": "Createdtime"
+    },
+    {
+      "type": "SUBTABLE",
+      "label": "変更内容メモ",
+      "noLabel": "true",
+      "code": "変更内容メモ",
+      "fields": [
+        {
+          "type": "DATE",
+          "label": "日付",
+          "noLabel": "false",
+          "code": "Date",
+          "required": "false",
+          "unique": "false",
+          "defaultValue": null,
+          "defaultExpression": null
+        },
+        {
+          "type": "SINGLE_LINE_TEXT",
+          "label": "変更内容",
+          "noLabel": "false",
+          "code": "ModifiedContents",
+          "required": "false",
+          "minLength": null,
+          "maxLength": null,
+          "expression": "",
+          "hideExpression": "false",
+          "unique": "false",
+          "defaultValue": ""
+        },
+        {
+          "type": "USER_SELECT",
+          "label": "変更者",
+          "noLabel": "false",
+          "code": "Modifiedby",
+          "required": "false"
+        }
+      ]
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "タイトル",
+      "noLabel": "false",
+      "code": "Title",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "FILE",
+      "label": "ファイル",
+      "noLabel": "false",
+      "code": "File",
+      "required": "false"
+    },
+    {
+      "type": "MULTI_LINE_TEXT",
+      "label": "説明",
+      "noLabel": "false",
+      "code": "Description",
+      "required": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "HR"
+    }
+  ]
+}

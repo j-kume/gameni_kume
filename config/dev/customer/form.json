@@ -1,0 +1,196 @@
+{
+  "properties": [
+    {
+      "type": "RECORD_NUMBER",
+      "label": "レコード番号",
+      "noLabel": "false",
+      "code": "レコード番号"
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "会社名",
+      "noLabel": "false",
+      "code": "会社名",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "部署名",
+      "noLabel": "false",
+      "code": "部署名",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "担当者名",
+      "noLabel": "false",
+      "code": "担当者名",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "郵便番号(数字のみ)",
+      "noLabel": "false",
+      "code": "郵便番号",
+      "required": "false",
+      "minLength": null,
+      "maxLength": "7",
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "住所",
+      "noLabel": "false",
+      "code": "住所",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "TEL(数字のみ)",
+      "noLabel": "false",
+      "code": "TEL",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "FAX(数字のみ)",
+      "noLabel": "false",
+      "code": "FAX",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "メールアドレス",
+      "noLabel": "false",
+      "code": "メールアドレス",
+      "required": "false",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "FILE",
+      "label": "会社ロゴ",
+      "noLabel": "false",
+      "code": "会社ロゴ",
+      "required": "false"
+    },
+    {
+      "type": "MULTI_LINE_TEXT",
+      "label": "備考",
+      "noLabel": "false",
+      "code": "備考",
+      "required": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "DROP_DOWN",
+      "label": "顧客ランク",
+      "noLabel": "false",
+      "code": "顧客ランク",
+      "required": "false",
+      "options": [
+        "A",
+        "B",
+        "C"
+      ],
+      "defaultValue": null
+    },
+    {
+      "type": "NUMBER",
+      "label": "uid",
+      "noLabel": "false",
+      "code": "uid",
+      "required": "true",
+      "minValue": null,
+      "maxValue": null,
+      "digit": "false",
+      "unique": "true",
+      "defaultValue": null,
+      "displayScale": null,
+      "unit": null,
+      "unitPosition": "BEFORE"
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "No",
+      "noLabel": "false",
+      "code": "no",
+      "required": "true",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "情報検索",
+      "noLabel": "false",
+      "code": "lookup_key",
+      "required": "true",
+      "minLength": null,
+      "maxLength": "64",
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "true",
+      "defaultValue": ""
+    },
+    {
+      "type": "SINGLE_LINE_TEXT",
+      "label": "レコードタイトル",
+      "noLabel": "false",
+      "code": "record_title",
+      "required": "true",
+      "minLength": null,
+      "maxLength": null,
+      "expression": "",
+      "hideExpression": "false",
+      "unique": "false",
+      "defaultValue": ""
+    }
+  ]
+}

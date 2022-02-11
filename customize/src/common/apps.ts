@@ -18,7 +18,7 @@ export class Apps {
     this._confs = [
       {
         env: 'dev',
-        code: 'ctrl_number',
+        code: 'number_ctrl',
         name: '【開発】番号管理マスタ',
         id: 10,
         token: 'BYs5rfJqgOS7jKGj7yHmG4Ob9hN4HMjy4aRlbima'

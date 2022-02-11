@@ -1,18 +1,35 @@
 //=============================================================================
 //【ファイル名】
-//    xxxxx/index.ts
+//  customer/index.ts
 //【アプリ名】
 //  〇〇〇〇〇
 //-----------------------------------------------------------------------------
 //  Copyright (c) 2021 AISIC.Inc
 //=============================================================================
-import * as errorLog from '../../common/error_log';
-// import * as commonConst from '../../common/common_const';
+import swal from 'sweetalert2'
+import { Apps } from '../../common/apps';
+import { NumberCtrl } from '../../common/number_ctrl';
+import { ErrorLog } from '../../common/error_log';
 import * as kt from '../../common/kintone_tools';
 import * as func from './func';
 
 (() => {
   'use strict';
+
+  const apps = new Apps(kt.getId());
+  const numberCtrl = new NumberCtrl(kt.getId());
+  const errorLog = new ErrorLog(kt.getId());
+
+  // =============================================
+  // アプリ情報存在チェック
+  // =============================================
+  if (!apps.isExistConfById(kt.getId())) {
+    swal.fire({
+      icon: 'error',
+      title: 'アプリ情報が登録されていません',
+      text: 'システム管理者に連絡してください！'
+    });
+  }
 
   // =============================================
   // イベントモード
@@ -29,23 +46,14 @@ import * as func from './func';
     EVENT_HANDLER_MODE + 'app.record.create.show'
   ], async event => {
     const record = event.record;
-
     try {
-
       func.setCommonInputCtrl(record);
 
       record.uid.value = '';
     } catch (e) {
       console.log(e);
       event.error = 'エラーが発生しました。';
-      errorLog.log2kintone({
-        appId: 99999,
-        token: 'XXXXXXXXXXXXX',
-        object: e,
-        fileName: 'template',
-        functionName: 'EVENT:create.show',
-        mark: ''
-      });
+      errorLog.log2kintone(e, 'customer/index.ts', 'EVENT:create.show', '');
     } finally {
       return event;
     }
@@ -58,25 +66,16 @@ import * as func from './func';
     EVENT_HANDLER_MODE + 'app.record.create.submit'
   ], async event => {
     const record = event.record;
-
     try {
-
       func.validation(event);
       if (event.error) {
         return event;
       }
-      // @ts-ignore
-      let number_adjust = THIS_APP_PROPERTY.number_adjust ? Number(THIS_APP_PROPERTY.number_adjust) : 0;
 
-      // uidをセットする
-      let nextUid = 0;
-
-      // 番号管理
-      let uid = Number(nextUid) + Number(number_adjust); //番号調整用パラメーター
-      // @ts-ignore
-      let no = await propertySet(uid);
-      let lookup_key = func.getLookupKey(record.AAAAA.value, record.BBBBB.value, no);
-      let record_title = func.getRecordTitle(record.AAAAA.value, record.BBBBB.value, no);
+      let uid = await numberCtrl.getNextUidAndIncrement(kt.getId());
+      let no = func.getNo(uid);
+      let lookup_key = func.getLookupKey(no);
+      let record_title = func.getRecordTitle(no);
 
       record.uid.value = uid;
       record.no.value = no;
@@ -86,14 +85,7 @@ import * as func from './func';
     } catch (e) {
       console.log(e);
       event.error = 'エラーが発生しました。';
-      errorLog.log2kintone({
-        appId: 99999,
-        token: 'XXXXXXXXXXXXX',
-        object: e,
-        fileName: 'template',
-        functionName: 'EVENT:create.submit',
-        mark: ''
-      });
+      errorLog.log2kintone(e, 'customer/index.ts', 'EVENT:create.submit', '');
     } finally {
       return event;
     }
@@ -131,25 +123,16 @@ import * as func from './func';
     const record = event.record;
 
     try {
-
       func.setCommonInputCtrl(record);
 
     } catch (e) {
       console.log(e);
       event.error = 'エラーが発生しました。';
-      errorLog.log2kintone({
-        appId: 99999,
-        token: 'XXXXXXXXXXXXX',
-        object: e,
-        fileName: 'template',
-        functionName: 'EVENT:create.submit',
-        mark: ''
-      });
+      errorLog.log2kintone(e, 'customer/index.ts', 'EVENT:edit.show', '');
     } finally {
       return event;
     }
   }); // edit.show
-
 
   // ---------------------------------------------
   // EVENT:edit.submit
@@ -165,20 +148,13 @@ import * as func from './func';
         return event;
       }
 
-      record.record_title.value = func.getLookupKey(record.AAAAA.value, record.BBBBB.value, record.no.value);
-      record.lookup_key.value = func.getRecordTitle(record.AAAAA.value, record.BBBBB.value, record.no.value);
+      record.lookup_key.value = func.getLookupKey(record.no.value);
+      record.record_title.value = func.getRecordTitle(record.no.value);
 
     } catch (e) {
       console.log(e);
       event.error = 'エラーが発生しました。';
-      errorLog.log2kintone({
-        appId: 99999,
-        token: 'XXXXXXXXXXXXX',
-        object: e,
-        fileName: 'template',
-        functionName: 'EVENT:create.submit',
-        mark: ''
-      });
+      errorLog.log2kintone(e, 'customer/index.ts', 'EVENT:edit.submit', '');
     } finally {
       return event;
     }
@@ -215,19 +191,10 @@ import * as func from './func';
     // const record = event.record;
     try {
 
-
-
     } catch (e) {
       console.log(e);
       event.error = 'エラーが発生しました。';
-      errorLog.log2kintone({
-        appId: 99999,
-        token: 'XXXXXXXXXXXXX',
-        object: e,
-        fileName: 'template',
-        functionName: 'EVENT:create.submit',
-        mark: ''
-      });
+      errorLog.log2kintone(e, 'customer/index.ts', 'EVENT:detail.show', '');
     } finally {
       return event;
     }
@@ -266,20 +233,10 @@ import * as func from './func';
 
     try {
 
-
-
-
     } catch (e) {
       console.log(e);
       event.error = 'エラーが発生しました。';
-      errorLog.log2kintone({
-        appId: 99999,
-        token: 'XXXXXXXXXXXXX',
-        object: e,
-        fileName: 'template',
-        functionName: 'EVENT:index.show',
-        mark: ''
-      });
+      errorLog.log2kintone(e, 'customer/index.ts', 'EVENT:index.show', '');
     } finally {
       return event;
     }

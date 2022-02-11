@@ -39,17 +39,29 @@ export const validation = (event: any) => {
   // }
 };  // validation
 
+
+// ---------------------------------------------
+// getNo
+// No 取得
+// ---------------------------------------------
+export const getNo = (uid: number) => {
+  let ret = '';
+
+  ret = String(uid);
+
+  return ret;
+};
+
+
 // ---------------------------------------------
 // getLookupKey
 // レコード情報検索 取得
 // ---------------------------------------------
-export const getLookupKey = (arg1: string, arg2: string, arg3: string) => {
+export const getLookupKey = (arg1: string) => {
   let ret = '';
   let tmp = [];
 
   if (arg1) { tmp.push(arg1); }
-  if (arg2) { tmp.push(arg2); }
-  if (arg3) { tmp.push(arg3); }
   ret = tmp.join(' ');
 
   return ret;
@@ -60,16 +72,13 @@ export const getLookupKey = (arg1: string, arg2: string, arg3: string) => {
 // getRecordTitle
 // レコードタイトル 取得
 // ---------------------------------------------
-export const getRecordTitle = (arg1: string, arg2: string, arg3: string) => {
+export const getRecordTitle = (arg1: string) => {
   let ret = '';
   let tmp = [];
 
   if (arg1) { tmp.push(arg1); }
-  if (arg2) { tmp.push(arg2); }
-  if (arg3) { tmp.push(arg3); }
   ret = tmp.join(' ');
 
   return ret;
 };
-
 

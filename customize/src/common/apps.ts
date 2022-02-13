@@ -9,8 +9,6 @@
 //  Copyright (c) 2022 AISIC.Inc
 //=============================================================================
 import * as apps_info  from "../../apps_info";
-// require('apps_')
-
 
 export class Apps {
 
